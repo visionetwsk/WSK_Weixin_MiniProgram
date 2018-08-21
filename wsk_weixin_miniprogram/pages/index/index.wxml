@@ -8,6 +8,8 @@
     </block>
   </view>
   <view class='customer-service'>
-    <button open-type="contact" size="default" session-from="{{customerInfo}}">联系客服</button>
+    <button open-type="contact" size="mini" session-from="{{customerInfo}}">联系客服</button>
+    <text size="default">\n</text>
+    <text size="default">微信小程序接入微上客客服系统演示</text>
   </view>
 </view>
