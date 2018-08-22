@@ -54,7 +54,7 @@ Page({
       customerInfo: JSON.stringify({
         "customerName": this.data.userInfo.nickName,
         "headimgurl": this.data.userInfo.avatarUrl,
-        "gender": 1,  // 性别 
+        "gender": 1,  // 性别, 1：男、2：女 
         "phoneNumber": "18600000006", // 电话
         "email": "test@wsk.cn", // 邮箱
         "address": "上海市", // 地址
